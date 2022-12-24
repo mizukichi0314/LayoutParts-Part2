@@ -1,1 +1,30 @@
 @charset "UTF-8";
+
+.balloon-box {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fad296;
+  padding: 20px;
+  border: solid 5px #815a0a;
+  border-radius: 30px;
+  position: relative;
+}
+p {
+  font-size: 16px;
+  line-height: 16px;
+}
+.balloon-box::before,
+.balloon-box::after {
+  content: '';
+  position: absolute;
+  left: 27px;
+  border: solid 23px transparent;
+}
+.balloon-box::before {
+  border-top: 23px solid #815a0a;
+  bottom: -48px;
+}
+.balloon-box::after {
+  border-top: 23px solid #fad296;
+  bottom: -41px;
+}

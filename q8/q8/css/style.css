@@ -1,2 +1,24 @@
 @charset "UTF-8";
 
+.img-box {
+  height: 500px;
+}
+/* Q8-1 解答 */
+.back-img {
+  background: url(../../image/coffee-background.jpg);
+}
+
+/* Q8-2　解答 */
+.back-img-norepeat {
+  background: url(../../image/coffee-background.jpg) no-repeat;
+}
+
+/* Q8-3 解答 */
+.back-img-center {
+  background: url(../../image/coffee-background.jpg) no-repeat center/cover;
+}
+
+/* Q8-4 解答 */
+.back-img-contain {
+  background: url(../../image/coffee-background.jpg) no-repeat center/contain;
+}
